@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GS JS demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <h1>Today we will learn to heem thekidd up</h1>
+    <h2>How do we use heem product to achieve the SCIENTIST status.</h2>
+    <p><a href="https://jvcutzz.com" target="_blank" onclick="alert('warning\n you are not a HEEMOLOGIST IF YOU LEAVE THIS SITE, are you sure you want to be a normal fool or do you want to be a top floor boss & heemothy heemologist')">Search Google</a></p>
+
+    <h2>How do we do heem work lab work</h2>
+    <p>What is 5+6?</p>
+    <button onclick="document.getElementById('add').innerHTML = 5 + 6;">
+        Click here to find answer foo
+    </button>
+    <p id="add"></p>
+
+    <h2>How do we change text already heemed with JS</h2>
+    <button onclick="document.getElementById('change').innerHTML = 'Click me to change the text below!'">
+        Change text
+    </button>
+    <p id="change">This text will change</p>
+    
+    <h2>We can also add this date and time</h2>
+    <button onclick="document.getElementById('date').innerHTML = new Date();">
+        Click me for date and time
+    </button>
+    <p id="date"></p>
+
+    <h2>How do we make a function</h2>
+    <p>Let's use a function to heem this up</p>
+    <button onclick="pFun()">Click me to run a function!</button>
+    <p id="pfun"></p>
+<h2>how do we ask other questions with JS</h2>
+<button onclick="askQuestion()">clikc here for  tuff questions</button>
+<p id="question"></p>
+
+<h2>How do we make heem pics pop out with a clicker</h2>
+<button onclick="showImage()"> click me for a surprise </button>
+<img id="fade" width="500px">
+    <script>
+        // Define the askname variable and prompt for the user's name
+        var askname = prompt("What's your name, Heemologist?");
+
+        function pFun() {
+            // Display a personalized message using askname
+            var p = document.getElementById('pfun');
+            p.innerHTML = 'Hello ' + askname + '! You just ran a function like a heem boss!';
+            p.style.fontSize = '30px';
+            p.style.color = 'pink';
+           
+        }
+        function showImage() {
+            var image= document.getElementById ('Fade');
+            image.src= 'images/highfade.jpg'
+        }
+    </script>
+</body>
+</html>

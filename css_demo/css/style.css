@@ -1,0 +1,32 @@
+s#baby-blue-text {
+    color:cornflowerblue;
+}
+
+body {background-color: blueviolet;
+    background-color: darkorchid;
+
+}
+.nav {
+    list-style: none;
+    text-align: center;
+
+}
+.nav li {
+    display: inline;
+    margin: right 20px;
+    
+}
+.copy {
+    background-color: bisque;
+    color:azure;
+    text-align: center;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 50px;
+    background-color: burlywood;
+
+}
